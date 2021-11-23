@@ -3,7 +3,7 @@ const scoreAreaEl = document.getElementById("scoreArea-el");
 const lifeEl = document.getElementById("life-el");
 const resultAreaEl = document.getElementById("resultArea-el");
 const lifelineEl = document.getElementById("lifeline-el");
-let randArray = check();
+let randArray = [];
 let checkArray = [];
 let tempThis = [];
 let life = 3;
@@ -79,6 +79,7 @@ function addThis(s) {
 
 //display function with calling
 function display() {
+  randArray = check();
   resultAreaEl.innerHTML = "";
   playAreaEl.classList.remove("padded");
   let textHtml = ``;
