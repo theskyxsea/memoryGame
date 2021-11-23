@@ -13,7 +13,7 @@ let win = false;
 let lifeline = 4;
 alert(`Instructions: To start the game Press Thanos Hand.
 you can either go with luck or memory.
-Tap the 'Iron-man Healmet' button to have a peek and memorize the location of cards.
+Tap the 'Iron-man Helmet' button to have a peek and memorize the location of cards.
 You can go with 3 wrong Atempts and 4 lifelines to memorise the card.
 
 OR
