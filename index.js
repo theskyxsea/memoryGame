@@ -29,7 +29,7 @@ function checkThis() {
     life--;
     if (life == 0) {
       alive = false;
-      resultAreaEl.innerHTML = `<img class="result" src="images/thanosFailed.gif" alt="avengers" />`;
+      resultAreaEl.innerHTML = `<img class="result" src="thanosFailed.gif" alt="avengers" />`;
       playAreaEl.innerHTML = ``;
     }
     lifeEl.innerHTML = `life : ${life}`;
@@ -38,7 +38,7 @@ function checkThis() {
     score++;
     if (score == 3) {
       win = true;
-      resultAreaEl.innerHTML = `<img class="container result" src="images/thanosWin.gif" alt="avengers" />`;
+      resultAreaEl.innerHTML = `<img class="container result" src="thanosWin.gif" alt="avengers" />`;
       playAreaEl.innerHTML = ``;
     }
     return true;
@@ -84,7 +84,7 @@ function display() {
   let textHtml = ``;
   for (let i = 0; i < randArray.length; i++) {
     textHtml += `<div id="box${i}" class="imgBox">
-        <img id="img${i}" class="toggle" onclick="addThis(${i})" src="images/image${randArray[i]}.jpg" alt="avengers" />
+        <img id="img${i}" class="toggle" onclick="addThis(${i})" src="image${randArray[i]}.jpg" alt="avengers" />
       </div>`;
   }
   playAreaEl.innerHTML = textHtml;
