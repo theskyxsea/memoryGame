@@ -30,7 +30,7 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  background: url("images/background-image.jpg");
+  background: url("background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 98%;
@@ -50,7 +50,7 @@ img {
   margin: 0.2% 0.2%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("images/cover.jpeg");
+  background-image: url("cover.jpeg");
   background-size: cover;
   border-radius: 5%;
   background-repeat: no-repeat;
