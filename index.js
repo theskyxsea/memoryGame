@@ -18,16 +18,16 @@ let gameStart = false;
 let alive = false;
 let win = false;
 let lifeline = 4;
-// alert(`Instructions: To start the game Press Thanos Hand.
-// you can either go with luck or memory.
-// Tap the 'Iron-man Healmet' button to have a peek and memorize the location of cards.
-// You can go with 3 wrong Atempts and 4 lifelines to memorise the card.
+alert(`Instructions: To start the game Press Thanos Hand.
+you can either go with luck or memory.
+Tap the 'Iron-man Healmet' button to have a peek and memorize the location of cards.
+You can go with 3 wrong Atempts and 4 lifelines to memorise the card.
 
-// OR
+OR
 
-// Just start opening cards and take guesses about the matching card!
-// open any card and you have to try to guess the location of the card matching it!
-// Good luck 🤗`);
+Just start opening cards and take guesses about the matching card!
+open any card and you have to try to guess the location of the card matching it!
+Good luck 🤗`);
 
 //game status update
 
