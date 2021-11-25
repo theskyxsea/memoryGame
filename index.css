@@ -1,4 +1,4 @@
-.container {
+.container3 {
   margin-top: 0%;
   margin-bottom: 0%;
   justify-content: center;
@@ -7,6 +7,16 @@
   display: grid;
   justify-self: center;
   grid-template-columns: 30% 30% 30%;
+}
+.container6 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 18% 18% 18% 18% 18%;
 }
 .padded {
   padding: 221px;
@@ -20,7 +30,7 @@
 body {
   margin-left: auto;
   margin-right: auto;
-  background: url("background-image.jpg");
+  background: url("images/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 98%;
@@ -30,23 +40,23 @@ body {
 img {
   /* border: 1px solid black;
   background-color: 0;*/
-  border-radius: 10px;
-  width: 225px;
-  height: 200px;
+  border-radius: 5%;
+  width: 100%;
+  height: 100%;
 }
 
 .imgBox {
   opacity: 100%;
-  margin: 5px 5px;
+  margin: 0.2% 0.2%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("cover.jpeg");
+  background-image: url("images/cover.jpeg");
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 5%;
   background-repeat: no-repeat;
-  width: 225px;
-  height: 200px;
-  border: rgb(163, 0, 0) 3px solid;
+  width: 75%;
+  height: 90%;
+  border: rgb(163, 0, 0) 3.5px solid;
 }
 .imgBox:hover {
   cursor: pointer;
@@ -65,7 +75,7 @@ img {
 .image-btn {
   margin-left: 5px;
   margin-right: 5px;
-  opacity: 70%;
+  opacity: 80%;
   height: 95px;
   width: 95px;
 }
